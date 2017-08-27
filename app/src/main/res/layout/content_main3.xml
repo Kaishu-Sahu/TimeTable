@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="#070A1B">
+
+    <TextView
+        android:id="@+id/cc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:allowUndo="true"
+        android:fontFamily="serif-monospace"
+        android:text="TimeTable"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="84dp"
+        android:allowUndo="true"
+        android:fontFamily="serif-monospace"
+        android:text="BIOTECHNOLOGY"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/buttonS1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="58dp"
+        android:background="@drawable/login_button"
+        android:padding="10dp"
+        android:text="Economics"
+        android:textColor="#ffffff"
+        android:layout_alignBaseline="@+id/buttonS2"
+        android:layout_alignBottom="@+id/buttonS2"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/buttonS2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/login_button"
+        android:padding="10dp"
+        android:text="Sociology"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/cc"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/cancelnotif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="58dp"
+        android:background="@drawable/login_button"
+        android:padding="10dp"
+        android:text="Cancel  Notification"
+        android:textColor="#ffffff"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@+id/buttonS1"
+        android:layout_alignEnd="@+id/textView6" />
+
+    <CheckBox
+        android:id="@+id/checkBoxnotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stick TimeTable in Notification Panel"
+        android:textColor="#ffffff"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/cancelnotif"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#070A1B">
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColorHint="@android:color/white"
+        android:layout_marginTop="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp">
+
+        <EditText
+            android:id="@+id/suser"
+            android:layout_width="254dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="106dp"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:selectAllOnFocus="false"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textColorLink="@android:color/background_light"
+            android:textSize="24sp" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColorHint="@android:color/white"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/textInputLayout"
+        android:layout_alignStart="@+id/textInputLayout">
+
+        <EditText
+            android:id="@+id/spass"
+            android:layout_width="254dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="106dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:selectAllOnFocus="false"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textColorLink="@android:color/background_light"
+            android:textSize="24sp" />
+    </android.support.design.widget.TextInputLayout>
+<!--    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:textColorHint="@android:color/white"
+        android:layout_below="@+id/textInputLayout0"
+        android:layout_alignStart="@+id/textInputLayout0">
+        <EditText
+            android:id="@+id/editText44"
+            android:layout_width="254dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textInputLayout"
+            android:layout_centerVertical="true"
+            android:ems="10"
+            android:hint="Batch"
+            android:inputType="textPersonName"
+            android:selectAllOnFocus="false"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textColorLink="@android:color/background_light"
+            android:textSize="24sp" />
+
+    </android.support.design.widget.TextInputLayout> -->
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textInputLayout0"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:background="@drawable/login_button"
+        android:padding="10dp"
+        android:text="Create Account"
+        android:textColor="#ffffff" />
+
+    <ProgressBar
+        android:id="@+id/progress2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/submit"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/kk"
+        android:layout_marginEnd="18dp"
+        android:layout_above="@+id/textInputLayout0"
+        android:layout_toStartOf="@+id/textInputLayout" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/xx"
+        android:layout_alignBottom="@+id/textInputLayout0"
+        android:layout_marginBottom="8dp"
+        android:layout_alignStart="@+id/imageView6" />
+
+  <!--  <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/textInputLayout1"
+        android:layout_alignEnd="@+id/imageView6"
+        android:paddingLeft="10dp"
+        app:srcCompat="@drawable/dd" /> -->
+
+
+</RelativeLayout>

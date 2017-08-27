@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iitr.kaishu.timetable">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/rrrrr"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/rrrrr"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.llp">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.llp"
+            android:windowSoftInputMode="stateVisible" />
+
+        <service
+            android:name=".S1"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".S2"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".Main2Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main3Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Main4Activity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".Update"
+            android:enabled="true"
+            android:exported="true" />
+
+        <receiver android:name=".switchButtonListener">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689603" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689604" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689605" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689606" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689607" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689608" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689609" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689610" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689611" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689612" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689613" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689614" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689615" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689616" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689617" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689618" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689619" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689620" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689621" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689622" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689623" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689624" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689625" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689626" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689627" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689628" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689629" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689630" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689631" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689632" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689633" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689634" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689635" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689636" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689637" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689638" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689639" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689640" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689641" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689642" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689643" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689644" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689645" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689646" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131689647" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="99" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688603" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688604" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688605" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688606" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688607" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688608" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688609" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688610" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688611" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688612" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688613" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688614" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688615" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688616" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688617" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688618" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688619" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688620" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688621" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688622" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688623" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688624" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688625" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688626" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688627" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688628" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688629" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688630" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688631" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688632" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688633" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688634" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688635" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688636" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688637" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688638" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688639" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688640" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688641" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688642" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688643" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688644" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688645" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688646" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131688647" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="98" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687603" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687604" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687605" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687606" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687607" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687608" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687609" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687610" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687611" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687612" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687613" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687614" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687615" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687616" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687617" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687618" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687619" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687620" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687621" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687622" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687623" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687624" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687625" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687626" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687627" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687628" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687629" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687630" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687631" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687632" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687633" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687634" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687635" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687636" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687637" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687638" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687639" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687640" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687641" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687642" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687643" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687644" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687645" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687646" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="2131687647" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="97" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".Weekly_Update"
+            android:enabled="true"
+            android:exported="true" />
+
+        <receiver
+            android:name=".TimeTable"
+            android:label="ECONOMICS">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/time_table_info" />
+        </receiver>
+        <receiver
+            android:name=".TimeTableS2"
+            android:label="SOCIOLOGY">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/time_table_s2_info" />
+        </receiver>
+
+        <activity android:name=".IntroActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

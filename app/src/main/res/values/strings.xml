@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">TimeTable</string>
+
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="kl">
+        <item>GREEN</item>
+        <item>BLUE</item>
+        <item>YELLOW</item>
+        <item>RED</item>
+        <item>ORANGE</item>
+        <item>VIOLET</item>
+        <item>GREY</item>
+    </string-array>
+    <string name="appwidget_text">timetablewidget</string>
+    <string name="add_widget">TimeTableWidget</string>
+
+
+
+
+
+
+
+
+
+    <string name="next">Next</string>
+    <string name="skip">Prev.</string>
+    <string name="start">Start</string>
+    <string name="title_slide1">Notification Panel</string>
+    <string name="title_slide2">Widget</string>
+    <string name="title_slide3">Tap for Info.</string>
+    <string name="title_slide4">Real Time Synchronization</string>
+    <string name="title_slide5">Give Autostart Permission</string>
+    <string name="title_slide6">Restart Your Phone</string>
+</resources>
